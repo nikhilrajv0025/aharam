@@ -48,7 +48,7 @@ setInterval(()=>setSlide((currentSlide+1)%slides.length),5500);
 
 const categoryImages = {
   "Burgers":"assets/burger.png","Pancakes":"assets/pancakes.png",
-  "Waffles":"assets/pancakes.png","Sandwiches":"assets/burger.png",
+  "Waffles":"assets/waffles.png","Sandwiches":"assets/burger.png",
   "Fried Momos":"assets/burger.png","Fries":"assets/burger.png"
 };
 let menu=[], activeCategory="All", query="";
