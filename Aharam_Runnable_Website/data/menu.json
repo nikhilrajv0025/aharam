@@ -1,0 +1,828 @@
+[
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Strawberry",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Vanilla",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Butter Scotch",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Chocolate",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Pista",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Cream Shakes",
+    "name": "Black Currant",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Chocolate Shakes",
+    "name": "KitKat Shake",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Chocolate Shakes",
+    "name": "Oreo Shake",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Chocolate Shakes",
+    "name": "Cold Coffee",
+    "price": 100,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Chocolate Shakes",
+    "name": "Nutella Shake",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Nannari",
+    "price": 40,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Sabja Seeds Nannari",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Rose Milk",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Badam Milk",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Paneer Sarbath",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Cool Refreshments",
+    "name": "Lime Soda",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Vanilla",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Pista",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Butter Scotch",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Strawberry",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Black Currant",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Chocolate",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Mango",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Cookies N Cream",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Choco Chips",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Afghan Dry Fruit",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Ice Creams",
+    "name": "Rajbhog",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Mineral Water",
+    "price": 10,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Tea",
+    "price": 20,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Lemon Tea",
+    "price": 20,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Ginger Tea",
+    "price": 25,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Cardamom Tea",
+    "price": 25,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Coffee",
+    "price": 25,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Boost",
+    "price": 35,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Horlicks",
+    "price": 35,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Hot Badam Milk",
+    "price": 35,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Beverages",
+    "name": "Hot Chocolate",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Nutella Waffle",
+    "price": 130,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Waffles",
+    "name": "Belgian Milk",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Belgian Dark",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Nutella KitKat",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Oreo Choco Blast",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Triple Chocomelt",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Chocobite Overload Dark",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Waffles",
+    "name": "Almond Crunch",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Bubble Waffles",
+    "name": "Original Bubble Waffle",
+    "price": 200,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Bubble Waffles",
+    "name": "Chocolate Bubble Waffle",
+    "price": 200,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Butter Jam Cheese Grilled Sandwich",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Peanut Butter Sandwich",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Veg Grilled Sandwich",
+    "price": 120,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Corn Cheese Grilled Sandwich",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Mushroom Grilled Sandwich",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Paneer Grilled Sandwich",
+    "price": 150,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Sandwiches",
+    "name": "Aharam Special Sandwich",
+    "price": 180,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Burgers",
+    "name": "Classic Veg Burger",
+    "price": 130,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Burgers",
+    "name": "Aloo Tikki Burger",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Burgers",
+    "name": "Paneer Tikki Burger",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Pancakes",
+    "name": "Classic Pancake",
+    "price": 130,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Pancakes",
+    "name": "Nutella Pancake",
+    "price": 140,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Pancakes",
+    "name": "Peanut Butter Pancake",
+    "price": 140,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Pancakes",
+    "name": "Classic Chocolate Pancake",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Pancakes",
+    "name": "Death by Chocolate Pancake",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fries",
+    "name": "French Fries",
+    "price": 90,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fries",
+    "name": "Peri Peri French Fries",
+    "price": 120,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fries",
+    "name": "Nuggets",
+    "price": 120,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fried Momos",
+    "name": "Veggie Momos",
+    "price": 120,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Fried Momos",
+    "name": "Mushroom Momos",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fried Momos",
+    "name": "Paneer Momos",
+    "price": 140,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Noodles & Pasta",
+    "name": "Plain Maggie Noodles",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Noodles & Pasta",
+    "name": "Veggie Maggie Noodles",
+    "price": 70,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Noodles & Pasta",
+    "name": "White Pasta",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Noodles & Pasta",
+    "name": "Masala Pasta",
+    "price": 130,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Classic Veg Bowl",
+    "price": 150,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Mushroom Veggie Bowl",
+    "price": 150,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Paneer Veggie Bowl",
+    "price": 160,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Exotic Fruit Bowl",
+    "price": 160,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Exotic Dry Fruit Bowl",
+    "price": 160,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Salad Bowls",
+    "name": "Fruit Ice Cream Bowl",
+    "price": 160,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Fresh Lime",
+    "price": 30,
+    "available": true,
+    "featured": true
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Watermelon",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Mosambi",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Muskmelon",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Grape",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Pineapple",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Papaya",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Chikoo",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Guava",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Mango (Seasonal)",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Orange",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Apple",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Pomegranate",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Fruit Juices",
+    "name": "Dragon Fruit",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Banana",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Dates",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Custard Apple (Seasonal)",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Fig (Anjeer)",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Chikoo",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Mango (Seasonal)",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Apple",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Avocado",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Pomegranate",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Milk Shakes",
+    "name": "Strawberry",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Healthy Juices",
+    "name": "ABC",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Healthy Juices",
+    "name": "Amla",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Healthy Juices",
+    "name": "Aloe Vera",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Fresh Healthy Juices",
+    "name": "Avocado",
+    "price": 80,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Curry Leaf",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Tomato",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Cucumber",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Mint",
+    "price": 50,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Bitter Gourd",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Ash Gourd",
+    "price": 60,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Carrot",
+    "price": 70,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Vegetable Juices",
+    "name": "Beetroot",
+    "price": 70,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Mojito Drinks",
+    "name": "Blueberry Mojito",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Mojito Drinks",
+    "name": "Lime Mojito",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Mojito Drinks",
+    "name": "Green Apple Mojito",
+    "price": 100,
+    "available": true,
+    "featured": false
+  },
+  {
+    "category": "Mojito Drinks",
+    "name": "Strawberry Mojito",
+    "price": 100,
+    "available": true,
+    "featured": false
+  }
+]

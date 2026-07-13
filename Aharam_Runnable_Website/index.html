@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aharam Veg Cafe – fresh vegetarian burgers, sandwiches, momos, waffles, pancakes, shakes and juices in Kaggadasapura, Bengaluru.">
+  <title>Aharam Veg Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Aharam home">
+        <img src="assets/aharam-logo.jpeg" alt="Aharam logo">
+      </a>
+      <button id="menuButton" class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Cafe Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+        <a class="pill primary" id="navWhatsapp" href="#">Order on WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-slide active" style="background-image:linear-gradient(90deg,rgba(7,10,8,.94) 0%,rgba(7,10,8,.72) 44%,rgba(7,10,8,.12) 100%),url('assets/burger.png')"></div>
+      <div class="hero-slide" style="background-image:linear-gradient(90deg,rgba(7,10,8,.94) 0%,rgba(7,10,8,.72) 44%,rgba(7,10,8,.12) 100%),url('assets/pancakes.png')"></div>
+      <div class="container hero-content">
+        <img class="hero-logo" src="assets/aharam-logo.jpeg" alt="Aharam original logo">
+        <span class="eyebrow">100% vegetarian</span>
+        <h1>Good food.<br><span>Good mood.</span></h1>
+        <p>Fresh vegetarian favourites prepared with quality ingredients, hygienic care and plenty of flavour.</p>
+        <div class="hero-actions">
+          <a class="pill primary" href="#menu">View Menu</a>
+          <a class="pill outline" href="#about">Our Story</a>
+        </div>
+        <div class="slide-dots">
+          <button class="dot active" data-slide="0" aria-label="Burger slide"></button>
+          <button class="dot" data-slide="1" aria-label="Pancake slide"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div class="container feature-grid">
+        <article><span>🌿</span><div><h3>Fresh Ingredients</h3><p>Prepared with freshness in mind.</p></div></article>
+        <article><span>🧑‍🍳</span><div><h3>Hygienic Kitchen</h3><p>Clean, careful food preparation.</p></div></article>
+        <article><span>🥬</span><div><h3>Pure Vegetarian</h3><p>Vegetarian delights for everyone.</p></div></article>
+        <article><span>♡</span><div><h3>Made with Care</h3><p>Every dish is made with attention.</p></div></article>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">Our menu</span>
+          <h2>Delicious Veg Delights</h2>
+          <p>Search and filter the complete Aharam menu.</p>
+        </div>
+
+        <div class="menu-tools">
+          <input id="menuSearch" type="search" placeholder="Search a dish..." aria-label="Search menu">
+          <div id="categoryFilters" class="filters"></div>
+        </div>
+
+        <div id="featuredMenu" class="featured-grid"></div>
+        <div id="menuList" class="menu-list"></div>
+        <button id="showMore" class="pill dark-button">Show Full Menu</button>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="gallery-copy">
+          <span class="eyebrow dark">Our cafe</span>
+          <h2>Add your real cafe photos</h2>
+          <p>Click any box to upload an interior, counter, seating or storefront photo. The photos are stored in this browser.</p>
+          <button id="clearGallery" class="text-button">Clear uploaded gallery photos</button>
+        </div>
+        <div class="upload-grid" id="uploadGrid"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-photo">
+          <img src="assets/pancakes.png" alt="Aharam chocolate pancakes">
+        </div>
+        <div>
+          <span class="eyebrow">About Aharam</span>
+          <h2>Neighbourhood comfort food, made fresh.</h2>
+          <p>Aharam is a vegetarian cafe in Kaggadasapura serving burgers, sandwiches, momos, waffles, pancakes, fries, shakes, juices and more.</p>
+          <p>Our focus is simple: satisfying taste, fair pricing, clean preparation and friendly service.</p>
+          <a class="pill primary" id="aboutWhatsapp" href="#">Ask About Today's Specials</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <span>📍</span><h3>Our Location</h3>
+          <p id="addressText"></p>
+          <a id="mapsLink" href="#">Open Google Maps</a>
+        </div>
+        <div class="contact-card">
+          <span>🕒</span><h3>Opening Hours</h3>
+          <p id="hoursText"></p>
+          <small>Edit this in <code>config.js</code></small>
+        </div>
+        <div class="contact-card">
+          <span>☎</span><h3>Phone</h3>
+          <p id="phoneText"></p>
+          <a id="phoneLink" href="#">Call Now</a>
+        </div>
+        <div class="contact-card">
+          <span>🛵</span><h3>Swiggy</h3>
+          <p>Order your favourites online.</p>
+          <a id="swiggyLink" href="#">Add Swiggy Link</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="quick-actions">
+    <a id="floatWhatsapp" href="#" title="WhatsApp">💬<small>WhatsApp</small></a>
+    <a id="floatCall" href="#" title="Call">☎<small>Call</small></a>
+    <a id="floatSwiggy" href="#" title="Swiggy">🛵<small>Swiggy</small></a>
+    <a id="floatMaps" href="#" title="Directions">📍<small>Directions</small></a>
+  </aside>
+
+  <footer>
+    <div class="container footer-inner">
+      <img src="assets/aharam-logo.jpeg" alt="Aharam">
+      <p>© <span id="year"></span> Aharam Veg Cafe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
