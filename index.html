@@ -24,7 +24,8 @@
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
-        <a class="pill primary" id="navWhatsapp" href="#">Order on WhatsApp</a>
+        <button class="cart-nav-button" id="openCart" type="button" aria-label="Open shopping cart">🛒 Cart <span id="cartCount">0</span></button>
+        <a class="pill primary" id="navWhatsapp" href="#">WhatsApp</a>
       </nav>
     </div>
   </header>
@@ -129,6 +130,30 @@
       </div>
     </section>
   </main>
+
+  <button id="floatingCart" class="floating-cart" type="button" aria-label="Open cart">
+    🛒 <span>Cart</span><strong id="floatingCartCount">0</strong>
+  </button>
+
+  <div id="cartOverlay" class="cart-overlay" aria-hidden="true"></div>
+  <aside id="cartDrawer" class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header">
+      <div><span class="eyebrow dark">Your order</span><h2>Shopping Cart</h2></div>
+      <button id="closeCart" class="cart-close" type="button" aria-label="Close cart">×</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div id="cartEmpty" class="cart-empty">
+      <span>🛒</span>
+      <h3>Your cart is empty</h3>
+      <p>Add your favourite dishes from the menu.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+      <textarea id="orderNote" rows="2" placeholder="Add a note (less spicy, no onion, etc.)"></textarea>
+      <button id="checkoutWhatsapp" class="checkout-button" type="button">Place Order on WhatsApp</button>
+      <button id="clearCart" class="clear-cart" type="button">Clear cart</button>
+    </div>
+  </aside>
 
   <aside class="quick-actions">
     <a id="floatWhatsapp" href="#" title="WhatsApp">💬<small>WhatsApp</small></a>
