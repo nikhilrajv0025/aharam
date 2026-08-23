@@ -11,5 +11,5 @@ window.AHARAM_CONFIG = {
   // =================================
 
   address: "17, 7th Cross Road, LBS Nagar, Kaggadasapura, Bengaluru",
-  openingHours: "ADD OPENING HOURS HERE", // Example: "Every day, 10:00 AM – 10:00 PM"
+  openingHours: "11am - 10pm", // Example: "Every day, 10:00 AM – 10:00 PM"
 };
