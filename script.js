@@ -70,7 +70,6 @@ const categoryImages = {
   Burgers: "assets/burger.png",
   Pancakes: "assets/pancakes.png",
   Waffles: "assets/waffles.png",
-<<<<<<< HEAD
   "Ice Cream Shakes": "assets/i_shake.png",
   "Ice Creams": "assets/icecream.png",
   "Hot Beverages": "assets/hot_beverages.png",
@@ -78,11 +77,10 @@ const categoryImages = {
   Sandwiches: "assets/sandwiches.png",
   "Fried Momos": "assets/momos.png",
   Fries: "assets/fries.png",
-=======
-  Sandwiches: "assets/burger.png",
-  "Fried Momos": "assets/burger.png",
-  Fries: "assets/burger.png",
->>>>>>> 80035795f78f9fb14b9f1e019241b2ea3550fdfb
+  Sandwiches: "assets/sandwiches.png",
+  "Fried Momos": "assets/momos.png",
+  Fries: "assets/fries.png",
+
 };
 
 let menu = [];
