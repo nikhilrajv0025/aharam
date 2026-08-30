@@ -4,49 +4,56 @@
     "name": "Strawberry",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Ice Cream Shakes",
     "name": "Vanilla",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Ice Cream Shakes",
     "name": "Butter Scotch",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Ice Cream Shakes",
     "name": "Chocolate",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,   
+    "image": "i_shake.png"
   },
   {
     "category": "Ice Cream Shakes",
     "name": "Pista",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Ice Cream Shakes",
     "name": "Black Currant",
     "price": 90,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Chocolate Shakes",
     "name": "KitKat Shake",
     "price": 100,
     "available": true,
-    "featured": false
+    "featured": false,
+    "image": "i_shake.png"
   },
   {
     "category": "Chocolate Shakes",
