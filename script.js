@@ -70,9 +70,13 @@ const categoryImages = {
   Burgers: "assets/burger.png",
   Pancakes: "assets/pancakes.png",
   Waffles: "assets/waffles.png",
-  Sandwiches: "assets/burger.png",
-  "Fried Momos": "assets/burger.png",
-  Fries: "assets/burger.png",
+  "Ice Cream Shakes": "assets/i_shake.png",
+  "Ice Creams": "assets/icecream.png",
+  "Hot Beverages": "assets/hot_beverages.png",
+  "Cold Beverages": "assets/cold_beverages.png",
+  Sandwiches: "assets/sandwiches.png",
+  "Fried Momos": "assets/momos.png",
+  Fries: "assets/fries.png",
 };
 
 let menu = [];
