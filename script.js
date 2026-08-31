@@ -72,13 +72,16 @@ const categoryImages = {
   Waffles: "assets/waffles.png",
   "Ice Cream Shakes": "assets/i_shake.png",
   "Ice Creams": "assets/icecream.png",
-  "Hot Beverages": "assets/hot_beverages.png",
+  "Beverages": "assets/hot_beverages.png",
   "Cold Beverages": "assets/cold_beverages.png",
   Sandwiches: "assets/sandwiches.png",
   "Fried Momos": "assets/momos.png",
   Fries: "assets/fries.png",
   Sandwiches: "assets/sandwiches.png",
   "Fried Momos": "assets/momos.png",
+  "Chocolate Shakes": "assets/chocolate_shake.png",
+  "Cool Refreshments": "assets/cool_refreshments.png",
+  "Bubble Waffles": "assets/bubble_waffles.png",
   Fries: "assets/fries.png",
 
 };
